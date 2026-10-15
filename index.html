@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Umii's Decor| Event Planning & Decoration</title>
+        <meta name="description" content="Umii's Decor offers beautiful event planning and decoration forbirthdays, bridal showers and special celebrations.">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <a href="#home" class="logo">
+                <img src="img/umii-logo.png" alt="Umii's Decor Logo">
+            </a>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="book-btn">Book an Event ♡</a>
+        </header>
+        <main>
+            <section class="hero" id="home">
+                <div class="hero-text">
+                    <p class="eyebrow">♡ WELCOME TO UMII'S DECOR ♡</p>
+                    <h1>
+                        Turning Your Special Moments into
+                        <span>Beautiful Memories</span>
+                    </h1>
+                <p class="description">
+                    From dreamy birthdays to beautiful celebrions,
+                    we bring your ideas to life with love, creativity 
+                    and a little touch of magic.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#gallery" class="main-btn">
+                        Explore Our Work ♡
+                    </a>
+                    <a href="#services" class="outline-btn">
+                        Our Services
+                    </a>
+                </div>
+                <p class="small-note">
+                    Every detail made with love. ♡
+                </p>
+                </div>
+                <div class="hero-image">
+                    <img
+                    src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85"
+                    alt="Party decorations and balloons">
+                    <div class="photo-label">
+                        Made with love ♡
+                    </div>
+                </div>
+            </section>
+            <section class="about section" id="about">
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+                <h2>
+                    Making Every Celebration
+                    <span>Extra Special.</span>
+                </h2>
+                <p>
+                    At Umii's Decor , we believe every special Moment
+                    deserves to be celebrated beautifully. We are passionate
+                    about event planning and decoration,helping turn your 
+                    ideas into lovely experiences filled with unforgettable 
+                    memories.
+                </p>
+                <p class="pink-note">
+                    Your vision ,our creativity, beautiful memories. ♡
+                </p>
+            </section>
+            <section class="section services" id="services">
+                <p class="eyebrow">WHAT WE DO</p>
+                <h2>Our <span>Services</span></h2>
+                <p class="intro">
+                    Something beautiful for every occasion.
+                </p>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <div class="service-icon">🎂</div>
+                        <h3>Birthday Parties</h3>
+                        <p>
+                            Beautiful birthday setups designed to make
+                            your special day memorable.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🎈</div>
+                        <h3>Event Decoration</h3>
+                        <p>
+                            Creative themes,ballon styling and 
+                            beautiful decorative details.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🍼</div>
+                        <h3>Baby Showers</h3>
+                        <p>
+                            Sweet and lovely celebrations for
+                            precious new beginnings.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">💐</div>
+                        <h3>Event Planning</h3>
+                        <p>
+                            Helping you organise your special occasion 
+                            from planning to the finishing touches.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section class="section gallery" id="gallery">
+                <p class="eyebrow">OUR CREATIVE CORNER</p>
+                <h2>
+                    Pretty Moments,
+                    <span>Beautiful Details.</span>
+                </h2>
+                <p class="intro">
+                    A little inspiration for your next celebration. ♡
+                </p>
+                <div class="gallery-grid">
+                    <img
+                    src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85"
+                    alt="Elegant event table decoration">
+                    <img
+                     src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=700&q=85"
+                     alt="Beautiful celebration setup">
+                    <img
+                    src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=85"
+                    alt="Elegant wedding decoration">
+                </div>
+                <p class="gallery-note">
+                    There are temporary inspiration photos.
+                    Our gallery will feature Umii's own decorations
+                    when the photos are available.
+                </p>
+            </section>
+            <section class="section contact" id="contact">
+                <p class="eyebrow">LET'S CREATE SOMETHING BEAUTIFUL</p>
+                <h2>
+                    Let's Plan Your
+                    <span>Special Day</span>
+                </h2>
+                <p class="intro">
+                    Tell us about your event and let's make it memorable.
+                </p>
+                <form id="booking-form">
+                    <label for="name">Your name</label>
+                    <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required>
+                    <label for="phone">Your phone number</label>
+                    <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required>
+                    <label for="event">Type of event</label>
+                    <select id="event" required>
+                        <option value="">Choose your event</option>
+                        <option>Birthday party</option>
+                        <option>Baby Shower</option>
+                        <option>Engagement</option>
+                        <option>Graduation party</option>
+                        <option>Bridal party</option>
+                        <option>Other event</option>
+                    </select>
+                    <label for="date">Event date</label>
+                    <input
+                    type="date"
+                    id="date"
+                    required>
+                    <label for="message">Tell us about your event</label>
+                    <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Theme,location,colours and your ideas..."></textarea>
+                    <button type="submit" class="main-btn">
+                        Enquire on WhatsApp ♡
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <a href="#home" class="logo">
+                <img src="img/umii-logo.png" alt="Umii's Decor Logo">
+            </a>
+            <p>
+                Turning your special moments into beautiful memories. ♡
+            </p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">
+                © 2026 Umii's Decor. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
